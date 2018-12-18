@@ -22,7 +22,7 @@ public class SpringContrer {
     @GetMapping
     public Map<String,Object> result() {
         if (log.isTraceEnabled()) {
-            log.trace("log==========");
+            log.trace("log==========2222");
         }
         log.error("log==========");
         Map<String, Object> map = new HashMap<>();
